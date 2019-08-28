@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="wknd/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <header
+                jcr:created="{Date}2019-08-23T05:14:22.378Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-08-23T05:14:36.801Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/structure/header"/>
+            <responsivegrid
+                jcr:created="{Date}2019-08-23T05:15:02.027Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-08-23T05:15:22.299Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        </root>
+    </jcr:content>
+</jcr:root>
